@@ -9,6 +9,8 @@ public class ShellSort {
         System.out.println(Arrays.toString(sort()));
     }
 
+    // O(n^2) but performs better than SelectionSort
+    // Same optimization technique can be used for BubbleSort
     private static  int[] sort() {
         for (int gap = intArray.length / 2; gap > 0; gap /= 2) {
             for (int i = gap; i < intArray.length; i++) {

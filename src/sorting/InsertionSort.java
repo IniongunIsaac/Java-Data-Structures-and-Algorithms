@@ -10,6 +10,7 @@ public class InsertionSort {
         System.out.println(Arrays.toString(sortedArray));
     }
 
+    //O(n^2)
     private static int[] sort() {
         for (int firstUnsortedIndex = 1; firstUnsortedIndex < intArray.length; firstUnsortedIndex++) {
             int newElement = intArray[firstUnsortedIndex];

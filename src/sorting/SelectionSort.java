@@ -10,6 +10,7 @@ public class SelectionSort {
         System.out.println(Arrays.toString(sortedArray));
     }
 
+    //O(n^2)
     private static int[] sort() {
         for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             int largestIndex = 0;

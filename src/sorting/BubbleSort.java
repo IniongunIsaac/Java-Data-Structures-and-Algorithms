@@ -12,6 +12,7 @@ public class BubbleSort {
         System.out.println(Arrays.toString(intArray));
     }
 
+    //O(n^2)
     private static int[] sort() {
         for (int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             for (int i = 0; i < lastUnsortedIndex; i++) {

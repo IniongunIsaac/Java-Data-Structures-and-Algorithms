@@ -32,6 +32,10 @@ public class EmployeeLinkedList {
     }
 
     public EmployeeNode removeFromFront() {
+        if (isEmpty()) {
+            return null;
+        }
+
         EmployeeNode removedNode = head;
         head = removedNode.getNext();
         removedNode.setNext(null);

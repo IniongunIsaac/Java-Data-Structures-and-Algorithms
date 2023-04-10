@@ -1,5 +1,7 @@
 package linkedlists;
 
+import utils.Employee;
+
 public class DoublyLinkedListMain {
     public static void main(String[] args) {
         Employee jabe  = new Employee("Jabe", "Jogn", 123);

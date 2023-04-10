@@ -1,5 +1,7 @@
 package linkedlists;
 
+import utils.Employee;
+
 public class EmployeeDoublyLinkedList {
     private EmployeeDoublyNode head;
     private EmployeeDoublyNode tail;

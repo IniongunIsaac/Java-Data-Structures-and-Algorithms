@@ -1,5 +1,7 @@
 package linkedlists;
 
+import utils.Employee;
+
 public class EmployeeNode {
     private Employee employee;
     private EmployeeNode next;

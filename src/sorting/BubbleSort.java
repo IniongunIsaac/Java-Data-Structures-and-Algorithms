@@ -5,7 +5,9 @@ import static utils.Utils.intArray;
 import static utils.Utils.swap;
 
 /**
- * Bubble sort is a simple sorting algorithm that repeatedly steps through a list of items to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. This process is repeated until no more swaps are needed, indicating that the list is now sorted.
+ * Bubble sort is a simple sorting algorithm that repeatedly steps through a list of items to be sorted, compares each pair of
+ * adjacent items and swaps them if they are in the wrong order. This process is repeated until no more swaps are needed,
+ * indicating that the list is now sorted.
  *
  * Here's how the algorithm works:
  *
@@ -28,7 +30,8 @@ import static utils.Utils.swap;
  * Set the flag to indicate that a swap has been made.
  * Repeat step 1 with the next pair of adjacent items, (7, 9). Since 7 is not greater than 9, we don't swap them. The list remains: 3, 5, 1, 7, 9.
  * Set the flag to indicate that no swaps have been made during this iteration.
- * Since the flag is set to indicate that swaps have been made during the current iteration, we repeat the entire process again, starting with the first pair of adjacent items.
+ * Since the flag is set to indicate that swaps have been made during the current iteration, we repeat the entire process again,
+ * starting with the first pair of adjacent items.
  * We repeat this process until no more swaps are needed. In this case, the list is sorted after the third iteration: 1, 3, 5, 7, 9.
 */
 public class BubbleSort {

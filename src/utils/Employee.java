@@ -1,4 +1,4 @@
-package linkedlists;
+package utils;
 
 import java.util.Objects;
 

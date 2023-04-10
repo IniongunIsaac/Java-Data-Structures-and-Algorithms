@@ -1,5 +1,7 @@
 package linkedlists;
 
+import utils.Employee;
+
 import java.util.ArrayList;
 import java.util.List;
 

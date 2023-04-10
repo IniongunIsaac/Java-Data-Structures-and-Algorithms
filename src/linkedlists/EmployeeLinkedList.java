@@ -1,5 +1,7 @@
 package linkedlists;
 
+import utils.Employee;
+
 public class EmployeeLinkedList {
     private EmployeeNode head;
     private int size;

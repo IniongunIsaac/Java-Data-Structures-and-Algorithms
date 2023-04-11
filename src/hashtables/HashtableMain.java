@@ -9,7 +9,7 @@ public class HashtableMain {
         Employee cube = new Employee("Tainya", "Achin", 3);
         Employee smith = new Employee("Mesuur", "Tindi", 4);
 
-        SimpleHashtable hashtable = new SimpleHashtable();
+        ChainedHashtable hashtable = new ChainedHashtable();
 
         hashtable.put("jane", jane);
         hashtable.put("ice", ice);
@@ -19,5 +19,6 @@ public class HashtableMain {
         hashtable.print();
 
         System.out.println(hashtable.get("cube"));
+        System.out.println(hashtable.remove("jane"));
     }
 }

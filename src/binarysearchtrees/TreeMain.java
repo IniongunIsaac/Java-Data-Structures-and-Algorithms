@@ -21,5 +21,8 @@ public class TreeMain {
         System.out.println(tree.get(27));
         System.out.println(tree.get(17));
         System.out.println(tree.get(259));
+
+        System.out.println(tree.min());
+        System.out.println(tree.max());
     }
 }

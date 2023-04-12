@@ -12,5 +12,7 @@ public class TreeMain {
         tree.insert(26);
         tree.insert(22);
         tree.insert(32);
+
+        tree.traverseInOrder();
     }
 }

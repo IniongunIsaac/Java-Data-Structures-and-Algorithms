@@ -12,7 +12,14 @@ public class TreeMain {
         tree.insert(26);
         tree.insert(22);
         tree.insert(32);
+        tree.insert(17);
 
         tree.traverseInOrder();
+
+        System.out.println();
+
+        System.out.println(tree.get(27));
+        System.out.println(tree.get(17));
+        System.out.println(tree.get(259));
     }
 }

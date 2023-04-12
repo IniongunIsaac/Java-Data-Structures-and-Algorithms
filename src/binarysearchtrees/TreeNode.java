@@ -41,6 +41,26 @@ public class TreeNode {
         }
     }
 
+    public TreeNode get(int value) {
+        if (value == data) {
+            return this;
+        }
+
+        if (value < data) {
+            if (leftChild != null) {
+                return leftChild.get(value);
+            }
+        }
+        else {
+            if (rightChild != null) {
+                return rightChild.get(value);
+            }
+        }
+
+        return null;
+    }
+
+
     public int getData() {
         return data;
     }
@@ -63,5 +83,12 @@ public class TreeNode {
 
     public void setRightChild(TreeNode rightChild) {
         this.rightChild = rightChild;
+    }
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "data=" + data +
+                '}';
     }
 }

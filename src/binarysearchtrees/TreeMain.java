@@ -15,14 +15,17 @@ public class TreeMain {
         tree.insert(17);
 
         tree.traverseInOrder();
-
         System.out.println();
 
-        System.out.println(tree.get(27));
-        System.out.println(tree.get(17));
-        System.out.println(tree.get(259));
+//        System.out.println(tree.get(27));
+//        System.out.println(tree.get(17));
+//        System.out.println(tree.get(259));
+//
+//        System.out.println(tree.min());
+//        System.out.println(tree.max());
 
-        System.out.println(tree.min());
-        System.out.println(tree.max());
+        tree.delete(254);
+        tree.traverseInOrder();
+        System.out.println();
     }
 }

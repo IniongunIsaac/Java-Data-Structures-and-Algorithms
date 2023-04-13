@@ -17,6 +17,12 @@ public class TreeMain {
         tree.traverseInOrder();
         System.out.println();
 
+        tree.traversePreOrder();
+        System.out.println();
+
+        tree.traversePostOrder();
+        System.out.println();
+
 //        System.out.println(tree.get(27));
 //        System.out.println(tree.get(17));
 //        System.out.println(tree.get(259));

@@ -15,7 +15,12 @@ public class HeapMain {
 
         heap.print();
 
-        heap.delete(1);
+        System.out.println(heap.peek());
+
+        heap.delete(0);
+
         heap.print();
+
+        System.out.println(heap.peek());
     }
 }

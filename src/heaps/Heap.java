@@ -1,5 +1,6 @@
 package heaps;
 
+//O(1) to find the minimum and maximum values in the heap because they're always in the root
 public class Heap {
     private int[] heap;
     private int size;
@@ -8,6 +9,7 @@ public class Heap {
         heap = new int[capacity];
     }
 
+    //O(logn)
     public void insert(int value) {
         if (isFull()) {
             throw new IndexOutOfBoundsException("Heap is full");
@@ -20,6 +22,8 @@ public class Heap {
         size++;
     }
 
+    //O(nlogn) for any random item
+    //O(logn) for deleting the root
     public int delete(int index) {
         if (isEmpty()) {
             throw new IndexOutOfBoundsException("Heap is empty");
@@ -104,5 +108,13 @@ public class Heap {
             System.out.print(", ");
         }
         System.out.println();
+    }
+
+    public int peek() {
+        if (isEmpty()) {
+            throw new IndexOutOfBoundsException("Heap is empty!");
+        }
+
+        return heap[0];
     }
 }
